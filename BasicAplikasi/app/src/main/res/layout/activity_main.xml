@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/teks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:textAlignment="center"
+        android:textSize="42px"
+        android:textStyle="bold"
+        android:text="Palindrome Check" />
+
+    <EditText
+        android:id="@+id/t_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teks"
+        android:hint="Input Text"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+        android:id="@+id/bt_tampil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_input"
+        android:backgroundTint="#0000FF"
+        android:hint="PALINDROME CHECK"
+
+        android:textColorHint="#ffff"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/TextTampil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_tampil"
+        android:text=""
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="172dp" />
+</LinearLayout>
